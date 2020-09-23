@@ -1,5 +1,8 @@
-{% extends "base.html" %}
+{% extends "base_temp.html" %}
 {% load static %}
+{% block style_link %}
+{% static 'style.css' %}
+{% endblock %}
 {% block page_content %}
 <div class="row mx-auto">
 	<div class="col-12">
@@ -13,5 +16,16 @@
 			adlfkjaweo0fij;sladk awoeifja adofjiopwe adfkj aowij 
 		</p>
 	</div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="aboutme">
+	<h1>About Me</h1>
+	<img src="{% static "img/real_zach.jpg" %}"> 
+	<p>
+		<b>HELLO!</b><br><br>
+		My name is Zachary Skelton. I graduated from Clemson University on May 2020 with a Bachelors of Science degree in computer engineering.
+	</p>
 </div>
 {% endblock %}
