@@ -1,31 +1,26 @@
-{% extends "base_temp.html" %}
+{% extends "base.html" %}
 {% load static %}
 {% block style_link %}
 {% static 'style.css' %}
 {% endblock %}
-{% block page_content %}
-<div class="row mx-auto">
-	<div class="col-12">
-		<h2>About Me</h2>
-	</div>
-	<div class="col-md-2">
-		<img src="{% static "img/real_zach.jpg" %}" class="img-fluid">
-	</div>
-	<div class="col-md-10">
-		<p>
-			adlfkjaweo0fij;sladk awoeifja adofjiopwe adfkj aowij 
-		</p>
-	</div>
-</div>
-{% endblock %}
 
 {% block content %}
 <div class="aboutme">
-	<h1>About Me</h1>
+	<h1 class="sans-serif">About Me</h1>
 	<img src="{% static "img/real_zach.jpg" %}"> 
-	<p>
-		<b>HELLO!</b><br><br>
-		My name is Zachary Skelton. I graduated from Clemson University on May 2020 with a Bachelors of Science degree in computer engineering.
+	<p class="sans-serif">
+		<b>HELLO!</b>
+		<br><br>
+		My name is Zachary Skelton. I graduated from Clemson University on May 2020 with a Bachelors of Science degree in computer engineering. 
+		I have worked for 2 years as an information security analyst at Clemson's Cybersecurity Operations Center (CSOC) and am currently searching
+		for a job to continue my career in cybersecurity.
+		<br><br>
+		My hobbies include playing the violin, videogames, and ultimate frisbee. I have performed as a violinist in Clemson's Symphony Orchestra
+		for my first two years at college. I was also part of the Clemson Esports club, where I joined various teams and competed in tournaments.
+		I have competed as a team in Hearthstone, League of Legends, and Heroes of the Storm.
+		<br><br>
+		This website was created from scratch and implements Django as the backend controller. Here is where I will host my portfolio and continue to
+		update my <a href="/projects">projects</a> page with new projects I have completed or am working on.
 	</p>
 </div>
 {% endblock %}

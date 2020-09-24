@@ -52,7 +52,15 @@
 	width: 1000px;
 }
 
+.sans-serif {
+	font-family: Arial;
+}
+
 body {
 	background-color: #696969;
 	margin: 0;
+}
+
+h1 {
+	margin-top: 0;
 }
