@@ -14,7 +14,7 @@
 
 .header li a {
 	display: block;
-	padding: 14px 16px;
+	padding: 17px 16px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -51,8 +51,8 @@
 }
 
 .aboutme {
-	padding-top: 25px;
-	padding-left: 25px;
+	margin-top: 25px;
+	margin-left: 25px;
 	width: 1000px;
 }
 
